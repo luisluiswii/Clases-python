@@ -1,0 +1,12 @@
+'''
+11. Ejercicio.
+Escriba un programa que lee dos números y muestra el mayor
+'''
+num1 = int(input("Dime el primer numero para saber si es el mayor: "))
+num2 = int(input("Dime el segundo numero para saber si es mayor o menor: "))
+if num1 > num2:
+    print("El numero 1 es mayor que el numero 2")
+elif num2 > num1:
+    print("El numero 2 es mayor que el numero 1")
+else:
+    print("Los dos numeros son iguales")
