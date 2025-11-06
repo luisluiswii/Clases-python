@@ -6,5 +6,16 @@ incorrecto
 '''
 print("Simulador de inicio de sesión")
 
-usuario = str(input("Introduzca su nombre de usuario: "))
-contrasenya = str(input("Indroduzca su contraseña"))
+usuario = str(input("Registre su nombre de usuario: "))
+contrasenya = str(input("Registre su contraseña: "))
+
+introducir_usuario = str(input("Introduzca su nombre de usuario: "))
+introducir_contrasenya = str(input("Introducir su contraseña: "))
+
+if usuario != introducir_usuario:
+
+    print("Hubo un error su nombre es distintas de la usada para su registro")
+elif contrasenya != introducir_contrasenya:
+    print("Hubo un error su contraseña es distintas de la usada para su registro")
+else:
+    print("Inicio de sesion exitoso!!!!")
