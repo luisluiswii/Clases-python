@@ -6,11 +6,11 @@ exponente. Pueden ocurrir tres cosas:
 • El exponente sea 0, el resultado es 1. 
 • El exponente sea negativo, el resultado es 1/potencia con el exponente positivo. 
 '''
-base = float(input("Dime la base que desees para calcular: "))
+base = int(input("Dime la base que desees para calcular: "))
 exponente = float(input("Dime exponente (si escrives 0 sera considerado como 1): "))
 if exponente == 0:
     resultado = 1
 elif exponente< 0:
     resultado = 1/(base ** abs(exponente))
 else:
-    resultado = 0 
+    resultado = base ** exponente
